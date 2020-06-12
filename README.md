@@ -20,4 +20,14 @@ Fichiers PHP :
   - fetch-actifs.php : Effectue la requête pour construire les <table> html des drones et equipements.
   - fetch-edit.php : Créer les formulaires d'éditions d'actifs avec les champs préremplis -> Hardcodage de la clé primaire ID ligne 38
   - fetch-ops.php : Effectue la requête pour contruire la <table> html des opérations -> Hardcodage de la colonne Ref3 qui stock l'opération ligne 29 et 33
-  
+  - index.php : Fichier principal qui affiche l'outil, principalement en html
+
+Fichiers Javascript :
+--------------------
+
+  - printer.js : Fonctions qui sont utilisées pour l'impression des étiquettes avec l'imprimantes zebra
+  - main.js : Gère le chargement de ala page et les comportements généraux (events, page de chargement, ...)
+  - filters.js : Gère les filtres 
+  - export.js : Gère l'export en XLS et CSV
+  - forms.js : Gère la validation et soumission des formulaires
+  - modals.js : Gère le fonctionnement des modals, notamement le comportement de l'ajout de N° de série 
