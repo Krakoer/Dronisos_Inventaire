@@ -1,0 +1,12 @@
+.title{
+    margin-bottom: 300px;
+}
+
+.horizontal-scrollable{
+    max-width: 600px;
+    display: flex;
+}
+
+.hide{
+    display:none;
+}
