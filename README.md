@@ -31,3 +31,11 @@ Fichiers Javascript :
   - export.js : Gère l'export en XLS et CSV
   - forms.js : Gère la validation et soumission des formulaires
   - modals.js : Gère le fonctionnement des modals, notamement le comportement de l'ajout de N° de série 
+  
+  
+Ressources utiles :
+===================
+
+  - Pour designer les étiquettes en ZPL : https://zpldesigner.com/ et https://en.wikipedia.org/wiki/Zebra_Programming_Language
+  - Pour imprimer sur une imprimante Zebra : https://www.zebra.com/us/en/forms/browser-print-request-javascript.html
+  - Pour l'auto-completion : https://jqueryui.com/autocomplete/
