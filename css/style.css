@@ -25,7 +25,7 @@ table.customfont {
 
 @font-face {
     font-family: "Montserra"; /*a name to be used later*/
-    src: url("/fonts/Montserrat/Montserrat-Medium.ttf"); /*URL to font*/
+    src: url("/assets/fonts/Montserrat/Montserrat-Medium.ttf"); /*URL to font*/
 }
 
 body {
