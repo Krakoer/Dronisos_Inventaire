@@ -15,9 +15,9 @@ Outil d'inventaire/gestion de stock pour Dronisos
   - del-entries.php : Effectue la requête pour supprimer des actifs via leur N° de série dans la bdd -> Hardcodage de la colonne Reference ligne 29
   - edit-entry.php : Effectue la requête pour editer un actif dans la bdd -> Hardcodage de la clé primaire ID ligne 22
   - export.php : Récupère les données à exporter dans la bdd via les N° de série -> Hardcodage du nom N° Série ligne 32
-  - fetch-actifs.php : Effectue la requête pour construire les <table> html des drones et equipements.
+  - fetch-actifs.php : Effectue la requête pour construire les tables html des drones et equipements.
   - fetch-edit.php : Créer les formulaires d'éditions d'actifs avec les champs préremplis -> Hardcodage de la clé primaire ID ligne 38
-  - fetch-ops.php : Effectue la requête pour contruire la <table> html des opérations -> Hardcodage de la colonne Ref3 qui stock l'opération ligne 29 et 33
+  - fetch-ops.php : Effectue la requête pour contruire la table html des opérations -> Hardcodage de la colonne Ref3 qui stock l'opération ligne 29 et 33
   - index.php : Fichier principal qui affiche l'outil, principalement en html  
 
 ## Fichiers Javascript :
