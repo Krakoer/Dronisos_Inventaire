@@ -1,12 +1,72 @@
-.title{
-    margin-bottom: 300px;
+.title {
+    margin-bottom: 30px;
 }
 
-.horizontal-scrollable{
-    max-width: 600px;
-    display: flex;
+.tab-content {
+    max-height: calc(75vh - 60px);
 }
 
-.hide{
-    display:none;
+.hide {
+    display: none;
+}
+
+.visuallyHidden {
+    opacity: 0;
+}
+
+#labelTypeImg {
+    max-height: 100px;
+    width: auto;
+}
+
+table.customfont {
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: "Montserra"; /*a name to be used later*/
+    src: url("/fonts/Montserrat/Montserrat-Medium.ttf"); /*URL to font*/
+}
+
+body {
+    font-family: "Montserra", Arial;
+}
+
+.btn-control {
+    font-size: 0.7em;
+    margin: 8px !important;
+}
+
+.ui-front {
+    z-index: 9999 !important;
+}
+
+.nav-pills > li > a.active {
+    background-color: #fa6c04 !important;
+    color: #ffffff !important;
+}
+
+.nav-pills > li > a:hover {
+    color: #fa6c04 !important;
+}
+
+.nav-link-color {
+    color: #fa6c04;
+}
+
+.nav-pills > li.navOp > a.active {
+    background-color: #a0a0a0 !important;
+    color: #ffffff !important;
+}
+
+.nav-pills > li.navOp > a:hover {
+    color: #a0a0a0 !important;
+}
+
+.nav-link-colorOp {
+    color: #a0a0a0;
+}
+
+:required {
+    border: 2px dotted orange;
 }

@@ -9,13 +9,18 @@
     <title>Inventory Management</title>
 
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/loading.scss">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/loading.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/jquery-ui.min.css">
     <script src="/js/jquery-3.5.0.min.js"></script>
     <script src="/js/bootstrap.js"></script>
-    <script src="/scripts/script.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/printer.js"></script>
+    <script src="/js/filters.js"></script>
+    <script src="/js/export.js"></script>
+    <script src="/js/forms.js"></script>
+    <script src="/js/modals.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/BrowserPrint-3.0.216.min.js"></script>
 
