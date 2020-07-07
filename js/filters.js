@@ -1,11 +1,13 @@
 // ----------------------------------------------------------------------- GESTION DES FILTRES-------------------------------------------------------------------------------------------
 
+document.addEventListener("mousedown", countEntries);
+document.addEventListener("keyup", countEntries);
 
 var nbFilter = 0; // Global var qui contient le nombre de filtres
 var filters = {}; // Global var qui contient les filtres sous la forme numérodelacolonne => "terme de recherche"
 
 //Ajoute un Filtre dans form-cont
-// Inout name optionnel : c'est pour les boutons Filtre maintenance et Filtre Stock
+// Inpout name optionnel : c'est pour les boutons Filtre maintenance et Filtre Stock
 function addField(name) {
     var container = document.getElementById("form-cont");
     nbFilter += 1;

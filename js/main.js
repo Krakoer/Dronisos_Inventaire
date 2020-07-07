@@ -1,6 +1,3 @@
-document.addEventListener("mousedown", countEntries);
-document.addEventListener("keyup", countEntries);
-
 // ----------------------------------------------------------- GESTION GENERALE DE LA PAGE -------------------------------------------------------------------------
 
 //Empêher la soumission d'un formulaire en appuyant sur entrée (ça pose des poblèmes à cause des douchettes qui renvoient un retour à la ligne après le scan)
