@@ -22,7 +22,7 @@ Outil d'inventaire/gestion de stock pour Dronisos
 
 ## Fichiers Javascript :
 
-  - printer.js : Fonctions qui sont utilisées pour l'impression des étiquettes avec l'imprimantes zebra
+  - printer.js : Fonctions qui sont utilisées pour l'impression des étiquettes avec l'imprimantes zebra -> Hardcodage des colonnes dans la fonction printFromAdd
   - main.js : Gère le chargement de ala page et les comportements généraux (events, page de chargement, ...)
   - filters.js : Gère les filtres 
   - export.js : Gère l'export en XLS et CSV

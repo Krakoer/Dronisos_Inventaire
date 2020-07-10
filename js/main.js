@@ -133,5 +133,9 @@ function loadpage() {
         });
     });
 
+    $("#droneForm").submit(function(event){
+        //console.log(event.originalEvent.submitter.value)
+    })
+
     setup_printer();
 }

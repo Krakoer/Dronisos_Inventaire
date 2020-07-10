@@ -263,13 +263,13 @@
                                     <form id="droneForm" onsubmit="return validateForm(this, 'drone');">
                                         <?php createEntryForm("drones"); ?> <!-- Trigger le fichier add-entry-form.php-->
                                         <input type="submit" class="btn btn-primary" value="Ajouter">
-                                        <input type="submit" class="btn btn-primary" value="Ajouter et Imprimer">
+                                        <input type="submit" class="btn btn-primary" value="Ajouter et Imprimer" onclick="printFromAdd('drone');">
                                     </form>
                                     <!-- FORM EQUIPEMENT -->
                                     <form id="equipementForm" class="hide" onsubmit="return validateForm(this, 'equipement');">
                                         <?php createEntryForm("equip"); ?>
                                         <input type="submit" class="btn btn-primary" value="Ajouter">
-                                        <input type="submit" class="btn btn-primary" value="Ajouter et Imprimer">
+                                        <input type="submit" class="btn btn-primary" value="Ajouter et Imprimer" onclick="printFromAdd('equipement');">
                                     </form>
                                 </div>
                             </div>

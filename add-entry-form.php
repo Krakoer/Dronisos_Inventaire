@@ -19,6 +19,14 @@ function createEntryForm($type)
     }
     $cols = searchCol(true, "edit", $corr);
 
+    echo "<label for=\"EntryLabelTypeSelector\">Type d'étiquette : </label>
+    <select class=\"form-control\" id=\"EntryLabelTypeSelector\">
+        <option value=\"zephyr\">Drone Zephyr</option>
+        <option value=\"helios\">Drone Helios</option>
+        <option value=\"materiel\">Materiel</option>
+        <option value=\"bureautique\">Bureautique</option>
+    </select><br>"; // For the Ajouter et imprimer button
+
     foreach ($cols as $col) {
         echo "<label for=\"" . $col . "-input\">" . $corr[$col]["name"] . "</label>";
         echo "<input id=\"" . $col . "-input-".$type."\" class=\"form-control autocomplete\" type=\"text\" name=\"" . $col . "\"";
